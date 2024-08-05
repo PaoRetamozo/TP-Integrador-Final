@@ -1,0 +1,25 @@
+.Sobremi{
+    background-color: #668aa1;
+    color: #fff;
+    padding: 50px 20px;
+}
+.Sobremi .Contenido-Sobremi{
+    max-width: 1000px;
+    margin: auto;
+}
+.Sobremi h2{/* ver bien que quiero hacer con este color*/
+    font-size: 45px;
+    font-family: 'Dancing Script';
+    color: #dbc8c8;
+    text-align: center;
+    padding: 20px 0;
+}
+.Sobremi .Contenido-Sobremi p{
+    font: 18px;/*tamaño texto general*/
+    line-height: 22px;/*distancia entre lineas de texto*/
+    margin-bottom: 20px;/*margen inferior al texto*/
+}
+.Sobremi .Contenido-Sobremi p span{
+    color: rgb(66, 11, 92);
+    font-weight: bold;/*negrita*/
+}

@@ -1,0 +1,61 @@
+.curriculum {
+    background-color: #668aa1;
+    color: #fff;
+    padding: 50px 20px;
+}
+.curriculum .contenido-curriculum{
+    max-width: 1000px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 45px;
+    font-family: 'Dancing Script';
+    color: #dbc8c8;
+    text-align: center;
+    padding: 20px 0;
+}
+.curriculum .fila{
+    display: flex;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.curriculum .fila .col h3{
+    font-size: 25px;
+    font-family: 'Kanit';
+    margin-bottom: 20px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid #fff;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #fff;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color:#4b728a;
+    position: relative;
+}
+.curriculum .fila .item h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item span {
+    color: #dbc8c8;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid #dbc8c8;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #dbc8c8;
+    margin-left: 20px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'kanit';/*fuente importada desde google fonts*/
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth; /*permite deslizar al clickear en el menu*/
+}
+/*Diseño del menu*/
+.container-encabezado{
+    background: #668aa1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*z-index: */
+}
+.container-encabezado header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px ;
+}
+.container-encabezado header .logotipo a{
+font-family: 'Dancing Script';/*fuente importada desde google fonts*/
+font-size: 42px;
+color: rgb(199, 145, 125);
+}
+.container-encabezado header ul{
+    display: flex;
+    list-style: none; /* saca los puntos de viñetas*/
+}
+.container-encabezado header nav ul li a{
+    text-align: none;
+    color: antiquewhite;
+    margin: 0 15px;/*me permitio espaciar entre los
+    diferentes links de mi barra de navegacion (dolor de ovarios)*/
+    padding: 3px;
+    transition: .5s;/*tarde 5 segundos en reaccionar*/
+    text-decoration: none;
+}
+.container-encabezado header nav ul li a:hover{/*lo uso para pasar en modo seleccion (color) sobre los botones*/
+    color: aquamarine;
+}
+.nav-responsive{
+    background-color: rgb(193, 197, 196);
+    color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #668aa1;
+        width: 140px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:768px){
+    .Sobremi .fila{
+        display: block;
+    }
+    .Sobremi .fila .col{
+        width: fit-content;
+    }
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width:90%;
+    }
+    .curriculum .fila .der{
+        margin-left: 20px;
+    }
+}
